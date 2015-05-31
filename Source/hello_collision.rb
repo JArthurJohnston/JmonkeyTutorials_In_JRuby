@@ -1,5 +1,5 @@
 include Java
-require_relative '../lib/Nightly/jMonkeyEngine3.jar'
+require_relative '../lib/jMonkeyEngine3.jar'
 
 java_import com.jme3.app.SimpleApplication,
             com.jme3.asset.plugins.ZipLocator,
@@ -39,7 +39,7 @@ class HelloCollision < SimpleApplication
   end
 
   def simpleInitApp
-    # Set @up Physics */
+    # Set up Physics */
     @bulletAppState = BulletAppState.new()
 
     stateManager.attach(@bulletAppState)
@@ -62,11 +62,11 @@ class HelloCollision < SimpleApplication
     @landscape = RigidBodyControl.new(sceneShape, 0)
     @sceneModel.addControl(@landscape)
 
-    # We set @up collision detection for the @player by creating
+    # We set up collision detection for the player by creating
     # a capsule collision shape and a CharacterControl.
     # The CharacterControl offers extra settings for
     # size, stepheight, jumping, falling, and gravity.
-    # We also put the @player in its starting position.
+    # We also put the player in its starting position.
     capsuleShape = CapsuleCollisionShape.new(1.5, 6, 1)
     @player = CharacterControl.new(capsuleShape, 0.05)
     @player.setJumpSpeed(20)
@@ -74,7 +74,7 @@ class HelloCollision < SimpleApplication
     @player.setGravity(30)
     @player.setPhysicsLocation(Vector3f.new(0, 10, 0))
 
-    # We attach the scene and the @player to the rootnode and the physics space,
+    # We attach the scene and the player to the rootnode and the physics space,
     # to make them appear in the game world.
     rootNode.attachChild(@sceneModel)
     @bulletAppState.getPhysicsSpace().add(@landscape)
