@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20e4c9d-ae3d-458b-b62a-bed72a543b82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_effects.rb" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_physics.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/RubymineProjects/JmonkeyTutorials/.idea/JmonkeyTest.iml" afterPath="$USER_HOME$/RubymineProjects/JmonkeyTutorials/.idea/JmonkeyTest.iml" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/RubymineProjects/JmonkeyTutorials/.idea/workspace.xml" afterPath="$USER_HOME$/RubymineProjects/JmonkeyTutorials/.idea/workspace.xml" />
     </list>
@@ -35,6 +35,7 @@
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_assets.coverage" NAME="hello_assets Coverage Results" MODIFIED="1433007649298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_node.coverage" NAME="hello_node Coverage Results" MODIFIED="1433004695533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@testInitialize__JmonkeyTest.coverage" NAME="testInitialize: JmonkeyTest Coverage Results" MODIFIED="1432990846528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Test" MODULE_NAME="JmonkeyTest" />
+    <SUITE FILE_PATH="coverage/JmonkeyTest@hello_physics.coverage" NAME="hello_physics Coverage Results" MODIFIED="1433105992979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_update_loop.coverage" NAME="hello_update_loop Coverage Results" MODIFIED="1433008805652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -46,21 +47,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hello_effects.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_effects.rb">
+      <file leaf-file-name="hello_assets.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_assets.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5788177">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello_animation.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_animation.rb">
+      <file leaf-file-name="hello_physics.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_physics.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
+            <state vertical-scroll-proportion="1.4310344">
+              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,6 +100,7 @@
         <option value="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_terrain.rb" />
         <option value="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_audio.rb" />
         <option value="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_effects.rb" />
+        <option value="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_physics.rb" />
       </list>
     </option>
   </component>
@@ -186,27 +188,7 @@
       <recent name="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.hello_effects">
-    <configuration default="false" name="hello_picker" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="JmonkeyTest" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Source" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/hello_picker.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.hello_physics">
     <configuration default="false" name="hello_collision" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="JmonkeyTest" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -284,6 +266,26 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/hello_effects.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hello_physics" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="JmonkeyTest" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Source" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/hello_physics.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -409,19 +411,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.hello_picker" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.hello_collision" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.hello_terrain" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.hello_audio" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.hello_effects" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.hello_collision" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.hello_terrain" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.hello_audio" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.hello_effects" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.hello_physics" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.hello_effects" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.hello_audio" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.hello_terrain" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.hello_collision" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.hello_picker" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.hello_physics" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.hello_effects" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.hello_audio" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.hello_terrain" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.hello_collision" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +474,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433098092872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished hello_effects">
+      <created>1433098732316</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1433098732316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -519,7 +527,8 @@
     <MESSAGE value="Fixed hello_collision. I had missed a few lines of code when I copy-wasted..." />
     <MESSAGE value="Finished hello_terrain" />
     <MESSAGE value="Finished hello_audio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished hello_audio" />
+    <MESSAGE value="Finished hello_effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished hello_effects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,14 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27054107">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -624,18 +625,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_animation.rb">
+    <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_effects.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
+        <state vertical-scroll-proportion="-21.11111">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_effects.rb">
+    <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_animation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5788177">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.04819277">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source/hello_physics.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4310344">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding />
         </state>
       </provider>
