@@ -1,5 +1,5 @@
 include Java
-require_relative '../lib/jMonkeyEngine3.jar'
+require_relative '../lib/Nightly/jMonkeyEngine3.jar'
 
 java_import com.jme3.app.SimpleApplication,
             com.jme3.asset.plugins.ZipLocator,
@@ -52,9 +52,15 @@ class HelloCollision < SimpleApplication
     setUpLight()
 
     # We load the scene from the zip file and adjust its size.
-    assetManager.registerLocator('../lib/town.zip', ZipLocator.java_class)
+    assetManager.registerLocator('town.zip', ZipLocator.java_class)
     @sceneModel = assetManager.loadModel('main.scene')
     @sceneModel.setLocalScale(2)
+
+    # We set up collision detection for the scene by creating a
+    # compound collision shape and a static RigidBodyControl with mass zero.
+    sceneShape = CollisionShapeFactory.createMeshShape(@sceneModel)
+    @landscape = RigidBodyControl.new(sceneShape, 0)
+    @sceneModel.addControl(@landscape)
 
     # We set @up collision detection for the @player by creating
     # a capsule collision shape and a CharacterControl.
@@ -140,7 +146,5 @@ class HelloCollision < SimpleApplication
           :setUpLight
 
 end
-
-raise 'Gettin a bad file descriptor error when trying to load town.zip'
 
 HelloCollision.new.start
