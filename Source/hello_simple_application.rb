@@ -9,7 +9,7 @@ java_import com.jme3.app.SimpleApplication,
             com.jme3.scene.shape.Box,
             com.jme3.math.ColorRGBA
 
-class Starter < SimpleApplication
+class HelloSimpleApplication < SimpleApplication
 
   def simpleInitApp
     b = Box.new(1, 1, 1)
@@ -21,3 +21,5 @@ class Starter < SimpleApplication
   end
 
 end
+
+HelloSimpleApplication.new.start
