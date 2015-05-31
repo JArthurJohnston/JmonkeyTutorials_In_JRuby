@@ -16,7 +16,6 @@ java_import com.jme3.app.SimpleApplication,
 class HelloTerrain < SimpleApplication
   field_accessor :flyCam
 
-
   def simpleInitApp
     flyCam.setMoveSpeed(50)
 
@@ -32,13 +31,13 @@ class HelloTerrain < SimpleApplication
     @mat_terrain.setTexture("Tex1", grass)
     @mat_terrain.setFloat("Tex1Scale", 64)
 
-    # 1.3) Add DIRT texture into the green layer (Tex2) */
+    # 1.3) Add DIRT texture into the green layer (Tex2)
     dirt = assetManager.loadTexture("Textures/Terrain/splat/dirt.jpg")
     dirt.setWrap(WrapMode::Repeat)
     @mat_terrain.setTexture("Tex2", dirt)
     @mat_terrain.setFloat("Tex2Scale", 32)
 
-    # 1.4) Add ROAD texture into the blue layer (Tex3) */
+    # 1.4) Add ROAD texture into the blue layer (Tex3)
     rock = assetManager.loadTexture("Textures/Terrain/splat/road.jpg")
     rock.setWrap(WrapMode::Repeat)
     @mat_terrain.setTexture("Tex3", rock)
@@ -61,17 +60,16 @@ class HelloTerrain < SimpleApplication
     patchSize = 65
     @terrain = TerrainQuad.new("my @terrain", patchSize, 513, heightmap.getHeightMap())
 
-    # 4. We give the @terrain its material, position & scale it, and attach it. */
+    # 4. We give the @terrain its material, position & scale it, and attach it.
     @terrain.setMaterial(@mat_terrain)
     @terrain.setLocalTranslation(0, -100, 0)
     @terrain.setLocalScale(2, 1, 2)
     rootNode.attachChild(@terrain)
 
-    # 5. The LOD (level of detail) depends on were the camera is: */
+    # 5. The LOD (level of detail) depends on were the camera is:
     control = TerrainLodControl.new(@terrain, getCamera())
     @terrain.addControl(control)
   end
-
 end
 
 HelloTerrain.new.start
