@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/RubymineProjects/JmonkeyTutorials/.idea/JmonkeyTest.iml" filepath="$USER_HOME$/RubymineProjects/JmonkeyTutorials/.idea/JmonkeyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JmonkeyTutorials_In_JRuby.iml" filepath="$PROJECT_DIR$/.idea/JmonkeyTutorials_In_JRuby.iml" />
     </modules>
   </component>
 </project>
