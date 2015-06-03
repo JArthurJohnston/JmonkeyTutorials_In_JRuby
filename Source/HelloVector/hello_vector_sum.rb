@@ -30,7 +30,7 @@ class HelloVectorSum < SimpleApplication
     box = Box.new(1, 1, 1)
 
     mat = MaterialUtils.makeMaterial(assetManager, "Common/MatDefs/Misc/Unshaded.j3md", ColorRGBA::Blue)
-    geom = SpatialUtils.makeGeometry(vctrNodeSpatLoc, scale, box, mat, "box")
+    geom = SpatialUtils.makeGeometryWithScaleAtLocation(vctrNodeSpatLoc, scale, box, mat, "box")
     vctrNode.attachChild(geom)
     vctrNode.setLocalTranslation(vctrNodeLoc)
     vctrSumm = vctrNodeLoc.add(vctrNodeSpatLoc)

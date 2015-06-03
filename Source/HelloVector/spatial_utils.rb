@@ -14,13 +14,13 @@ class SpatialUtils
       return geometry_new
     end
 
-    def makeGeometry(location, scale, mesh, material, name)
-      geometry = self.makeGeometry(name, mesh)
+    def makeGeometryWithScaleAtLocation(location, scale, mesh, material, name)
+      geometry = self.makeGeometry(name, material,  mesh)
       geometry.setLocalTranslation(location)
       geometry.setLocalScale(scale)
       return geometry
     end
-    #overloaded methods this NEEDS refactoring
+
   end
 
 end
