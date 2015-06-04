@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20e4c9d-ae3d-458b-b62a-bed72a543b82" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/JmonkeyTutorials_In_JRuby.iml" afterPath="$PROJECT_DIR$/.idea/JmonkeyTutorials_In_JRuby.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/HelloVector/debug.rb" afterPath="$PROJECT_DIR$/Source/HelloVector/debug.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/HelloVector/hello_vector_sum.rb" afterPath="$PROJECT_DIR$/Source/HelloVector/hello_vector_sum.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/HelloVector/spatial_utils.rb" afterPath="$PROJECT_DIR$/Source/HelloVector/spatial_utils.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JmonkeyTest.iws" />
@@ -25,8 +25,9 @@
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_physics.coverage" NAME="hello_physics Coverage Results" MODIFIED="1433105992979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_update_loop.coverage" NAME="hello_update_loop Coverage Results" MODIFIED="1433008805652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_effects.coverage" NAME="hello_effects Coverage Results" MODIFIED="1433098688312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source" MODULE_NAME="JmonkeyTest" />
-    <SUITE FILE_PATH="coverage/JmonkeyTest@hello_physics__1_.coverage" NAME="hello_physics (1) Coverage Results" MODIFIED="1433163141276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Source" MODULE_NAME="JmonkeyTutorials_In_JRuby" />
+    <SUITE FILE_PATH="coverage/JmonkeyTest@hello_physics__1_.coverage" NAME="hello_physics (1) Coverage Results" MODIFIED="1433339159233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Source" MODULE_NAME="JmonkeyTutorials_In_JRuby" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_input_system.coverage" NAME="hello_input_system Coverage Results" MODIFIED="1433016580532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
+    <SUITE FILE_PATH="coverage/JmonkeyTest@debug.coverage" NAME="debug Coverage Results" MODIFIED="1433339231809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Source/HelloVector" MODULE_NAME="JmonkeyTutorials_In_JRuby" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@testStart__JmonkeyTest.coverage" NAME="testStart: JmonkeyTest Coverage Results" MODIFIED="1433003124176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Test" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_picker.coverage" NAME="hello_picker Coverage Results" MODIFIED="1433081538770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_materials.coverage" NAME="hello_materials Coverage Results" MODIFIED="1433032090999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
@@ -37,6 +38,7 @@
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_node.coverage" NAME="hello_node Coverage Results" MODIFIED="1433004695533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@testInitialize__JmonkeyTest.coverage" NAME="testInitialize: JmonkeyTest Coverage Results" MODIFIED="1432990846528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Test" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_simple_application.coverage" NAME="hello_simple_application Coverage Results" MODIFIED="1433045324442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source" MODULE_NAME="JmonkeyTest" />
+    <SUITE FILE_PATH="coverage/JmonkeyTest@hello_vector_sum.coverage" NAME="hello_vector_sum Coverage Results" MODIFIED="1433367744747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Source/HelloVector" MODULE_NAME="JmonkeyTutorials_In_JRuby" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@hello_assets.coverage" NAME="hello_assets Coverage Results" MODIFIED="1433007649298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Source" MODULE_NAME="JmonkeyTest" />
     <SUITE FILE_PATH="coverage/JmonkeyTest@Run_test__StarterTest___JmonkeyTest.coverage" NAME="Run test 'StarterTest': JmonkeyTest Coverage Results" MODIFIED="1432988987903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/JmonkeyTest/Test" MODULE_NAME="JmonkeyTest" />
   </component>
@@ -73,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/Source/hello_physics.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -82,8 +84,8 @@
       <file leaf-file-name="hello_vector_sum.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/HelloVector/hello_vector_sum.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.98318243">
-              <caret line="40" column="60" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.3604336">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -93,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/Source/HelloVector/debug.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -156,8 +158,8 @@
         <option value="$PROJECT_DIR$/Source/HelloVector/material_utils.rb" />
         <option value="$PROJECT_DIR$/Syllabus" />
         <option value="$PROJECT_DIR$/Source/HelloVector/spatial_utils.rb" />
-        <option value="$PROJECT_DIR$/Source/HelloVector/debug.rb" />
         <option value="$PROJECT_DIR$/Source/HelloVector/hello_vector_sum.rb" />
+        <option value="$PROJECT_DIR$/Source/HelloVector/debug.rb" />
       </list>
     </option>
   </component>
@@ -269,47 +271,7 @@
       <recent name="$USER_HOME$/RubymineProjects/JmonkeyTutorials/Source" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.hello_physics (1)">
-    <configuration default="false" name="hello_effects" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="JmonkeyTest" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Source" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/hello_effects.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="hello_physics" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="JmonkeyTest" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Source" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/hello_physics.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.hello_vector_sum">
     <configuration default="false" name="hello_animation" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="JmonkeyTutorials_In_JRuby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -367,6 +329,46 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/hello_physics.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hello_vector_sum" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="JmonkeyTutorials_In_JRuby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Source/HelloVector" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/HelloVector/hello_vector_sum.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="JmonkeyTutorials_In_JRuby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Source/HelloVector" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Source/HelloVector/debug.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -498,19 +500,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.hello_effects" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.hello_physics" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.hello_animation" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.hello_collision" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.hello_physics (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.hello_animation" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.hello_collision" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.hello_physics (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.hello_vector_sum" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.debug" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.hello_physics (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.hello_collision" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.hello_animation" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.hello_physics" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.hello_effects" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.hello_vector_sum" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.debug" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.hello_physics (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.hello_collision" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.hello_animation" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +575,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433244265445</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="I believe Ive ported all the code for hello_vector. But I havent actually tried it to ensure it works">
+      <created>1433293537975</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1433293537975</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -622,7 +630,8 @@
     <MESSAGE value="Finished hello_audio" />
     <MESSAGE value="Finished hello_effects" />
     <MESSAGE value="Started on hello_vector. the first tutorial to use multiple classes. Theres an overloaded method in SpatialUtils, Ill have to rename one of them to get it to work in ruby." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started on hello_vector. the first tutorial to use multiple classes. Theres an overloaded method in SpatialUtils, Ill have to rename one of them to get it to work in ruby." />
+    <MESSAGE value="I believe Ive ported all the code for hello_vector. But I havent actually tried it to ensure it works" />
+    <option name="LAST_COMMIT_MESSAGE" value="I believe Ive ported all the code for hello_vector. But I havent actually tried it to ensure it works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,22 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/hello_physics.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/HelloVector/debug.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/HelloVector/spatial_utils.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -694,10 +687,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Source/hello_physics.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/HelloVector/debug.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Source/HelloVector/hello_vector_sum.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98318243">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.3604336">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>

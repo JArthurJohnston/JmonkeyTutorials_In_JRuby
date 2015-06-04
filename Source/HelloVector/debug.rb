@@ -6,13 +6,13 @@ class Debug
   class << self
 
     def showNodeAxes assetManager, node, axisLength
-      node.attachChild(createVectorOnAxisWithColor('XAxis', ColorRGBA::Red))
-      node.attachChild(createVectorOnAxisWithColor('YAxis', ColorRGBA::Green))
-      node.attachChild(createVectorOnAxisWithColor('ZAxis', ColorRGBA::Blue))
+      node.attachChild(createVectorOnAxisWithColor('XAxis', ColorRGBA::Red, axisLength))
+      node.attachChild(createVectorOnAxisWithColor('YAxis', ColorRGBA::Green, axisLength))
+      node.attachChild(createVectorOnAxisWithColor('ZAxis', ColorRGBA::Blue, axisLength))
     end
 
-    def createVectorOnAxisWithColor axisLabel, color
-      vector = Vector3f.new(axisLen, 0, 0)
+    def createVectorOnAxisWithColor axisLabel, color, axisLength
+      vector = Vector3f.new(axisLength, 0, 0)
       arrow = Arrow.new(vector)
       mat = Material.new(am, "Common/MatDefs/Misc/Unshaded.j3md")
       mat.setColor("Color", color)
@@ -56,8 +56,8 @@ class Debug
       node.attachChild(geometry)
     end
 
-    private_class_method :showObjectWith,
-        :createVectorOnAxisWithColor
+    # private_class_method :showObjectWith,
+    #     :createVectorOnAxisWithColor
 
   end
 

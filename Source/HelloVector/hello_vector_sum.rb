@@ -1,6 +1,6 @@
 include Java
 
-require_relative '../lib/jMonkeyEngine3.jar'
+require_relative '../../lib/jMonkeyEngine3.jar'
 require_relative 'spatial_utils'
 require_relative 'debug'
 require_relative 'material_utils'
@@ -18,9 +18,22 @@ class HelloVectorSum < SimpleApplication
   field_accessor :cam,
                  :flyCam
 
+  def initialize
+    super
+    @vctrNode = SpatialUtils.makeNode("vectorNode")
+
+    @vctrNodeLoc = Vector3f.new(64.0, 64.0, 64.0)
+    @camLocVctr = Vector3f.new(512.0, 64.0, 0.0)
+
+    @vctrNodeSpatLoc = Vector3f.new(64.0, 128.0, -32.0)
+
+    @vctrSumm = nil
+    @scale = Vector3f.new(8, 8, 8)
+  end
+
   #override
   def simpleInitApp
-    cam.setLocation(camLocVctr)
+    cam.setLocation(@camLocVctr)
     cam.lookAt(Vector3f::ZERO, cam.getUp())
     flyCam.setMoveSpeed(100.0)
 
@@ -30,17 +43,17 @@ class HelloVectorSum < SimpleApplication
     box = Box.new(1, 1, 1)
 
     mat = MaterialUtils.makeMaterial(assetManager, "Common/MatDefs/Misc/Unshaded.j3md", ColorRGBA::Blue)
-    geom = SpatialUtils.makeGeometryWithScaleAtLocation(vctrNodeSpatLoc, scale, box, mat, "box")
-    vctrNode.attachChild(geom)
-    vctrNode.setLocalTranslation(vctrNodeLoc)
-    vctrSumm = vctrNodeLoc.add(vctrNodeSpatLoc)
+    geom = SpatialUtils.makeGeometryWithScaleAtLocation(@vctrNodeSpatLoc, @scale, box, mat, "box")
+    @vctrNode.attachChild(geom)
+    @vctrNode.setLocalTranslation(@vctrNodeLoc)
+    @vctrSumm = @vctrNodeLoc.add(@vctrNodeSpatLoc)
 
-    Debug.showNodeAxes(assetManager, vctrNode, 4.0)
-    Debug.showVector3fArrow(assetManager, rootNode, vctrNodeLoc, ColorRGBA::Red, "vctrNodeLoc")
-    Debug.showVector3fArrow(assetManager, vctrNode, vctrNodeSpatLoc, ColorRGBA::Green, "vctrNodeSpatLoc")
-    Debug.showVector3fArrow(assetManager, rootNode, vctrSumm, ColorRGBA::Blue, "vctrSumm")
+    Debug.showNodeAxes(assetManager, @vctrNode, 4.0)
+    Debug.showVector3fArrow(assetManager, rootNode, @vctrNodeLoc, ColorRGBA::Red, "vctrNodeLoc")
+    Debug.showVector3fArrow(assetManager, @vctrNode, @vctrNodeSpatLoc, ColorRGBA::Green, "vctrNodeSpatLoc")
+    Debug.showVector3fArrow(assetManager, rootNode, @vctrSumm, ColorRGBA::Blue, "vctrSumm")
 
-    rootNode.attachChild(vctrNode)
+    rootNode.attachChild(@vctrNode)
   end
 
   #override
