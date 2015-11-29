@@ -17,9 +17,9 @@ Note: these tutorials will only with with jRuby. And they've only been tested on
 ## Usage
 
 Open up your preffered terminal or command promt and navigate to the 'Source' directory where you extracted this repo. Each file is a stand-alone script. So all you have to do is run any of the 'hello' scripts. You can do this by executing:
-
-  jruby <script_name>.rb 
-
+,,,ruby
+  jruby script_name.rb 
+,,,
 in your command prompt.
 
 Once youve run a script you will see the basic jMonkey splash screen. Choose the settings you want and continue to run the program.
