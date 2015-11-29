@@ -14,6 +14,14 @@ Note: these tutorials will only with with jRuby. And they've only been tested on
 4. Extract the jMonkeyEngine3.jar file from the zip and put it in the 'lib' folder you created.
 5. Enjoy using jMonkey in ruby!
 
+## Usage
+
+Open up your preffered terminal or command promt and navigate to the 'Source' directory where you extracted this repo. Each file is a stand-alone script. So all you have to do is run any of the 'hello' scripts. You can do this by executing
+jruby <script_name>.rb 
+in your command prompt.
+
+Once youve run a script you will see the basic jMonkey splash screen. Choose the settings you want and continue to run the program.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/JArthurJohnston/Parser. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
