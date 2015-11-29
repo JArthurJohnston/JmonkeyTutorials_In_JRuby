@@ -6,8 +6,10 @@ JMonkey is essentially an abstraction of OpenGL. And with the power of JRuby, we
 
 ## Installation
 
-1. Clone or download all the files in the 'Source' directory. 
-2. Create a folder in the 'Source' directory and name it 'lib'
+Note: these tutorials will only with with jRuby. And they've only been tested on version 1.7.23. If you have not already done so, go to http://jruby.org/ and follow their instructions to download and install jRuby on your machine
+
+1. Clone or download this repo and copy the files to a folder of your choice.
+2. In that folder create a directory and name it 'lib'.
 3. download the latest JME zip file from http://updates.jmonkeyengine.org/stable/3.0/engine/
 4. Extract the jMonkeyEngine3.jar file from the zip and put it in the 'lib' folder you created.
 5. Enjoy using jMonkey in ruby!
